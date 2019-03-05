@@ -81,6 +81,9 @@ pub use torque::Torque;
 pub mod data;
 pub use data::Data;
 
+pub mod charge;
+pub use charge::Charge;
+
 mod torque_energy;
 pub use torque_energy::TorqueEnergy;
 
